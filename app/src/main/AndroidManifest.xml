@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Projectbp3"
+        tools:targetApi="31">
+        <activity
+            android:name=".nasijamblang"
+            android:exported="false" />
+        <activity
+            android:name=".kulinercrbn"
+            android:exported="false" />
+        <activity
+            android:name=".tahukopeci"
+            android:exported="false" />
+        <activity
+            android:name=".kulinerkng"
+            android:exported="false" />
+        <activity
+            android:name=".kotakuliner"
+            android:exported="false" />
+        <activity
+            android:name=".readwaterland"
+            android:exported="false" />
+        <activity
+            android:name=".readsunyaragi"
+            android:exported="false" />
+        <activity
+            android:name=".readkeraton"
+            android:exported="false" />
+        <activity
+            android:name=".crbnwisata"
+            android:exported="false" />
+        <activity
+            android:name=".readtenjo"
+            android:exported="false" />
+        <activity
+            android:name=".readpalutungan"
+            android:exported="false" />
+        <activity
+            android:name=".readdarma"
+            android:exported="false" />
+        <activity
+            android:name=".kuningwisata"
+            android:exported="false" />
+        <activity
+            android:name=".tentang"
+            android:exported="false" />
+        <activity
+            android:name=".djenal"
+            android:exported="false" />
+        <activity
+            android:name=".emo"
+            android:exported="false" />
+        <activity
+            android:name=".sawahaki"
+            android:exported="false" />
+        <activity
+            android:name=".kuliner"
+            android:exported="false" />
+        <activity
+            android:name=".kngwisata"
+            android:exported="false" />
+        <activity
+            android:name=".wiibun"
+            android:exported="false" />
+        <activity
+            android:name=".wisitu"
+            android:exported="false" />
+        <activity
+            android:name=".wipanyaweuan"
+            android:exported="false" />
+        <activity
+            android:name=".mjlwisata"
+            android:exported="false" />
+        <activity
+            android:name=".wisata"
+            android:exported="false" />
+        <activity
+            android:name=".readcrbn"
+            android:exported="false" />
+        <activity
+            android:name=".crbn"
+            android:exported="false" />
+        <activity
+            android:name=".readkng"
+            android:exported="false" />
+        <activity
+            android:name=".kng"
+            android:exported="false" />
+        <activity
+            android:name=".readmjl"
+            android:exported="false" />
+        <activity
+            android:name=".mjl"
+            android:exported="false" />
+        <activity
+            android:name=".kota"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".reg"
+            android:exported="false" />
+        <activity
+            android:name=".log"
+            android:exported="false" />
+        <activity
+            android:name=".activity_register"
+            android:exported="false" />
+        <activity
+            android:name=".activity_login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
